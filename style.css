@@ -1,0 +1,98 @@
+/* .first-section {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+} */
+body {
+  margin: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+#header {
+  display: flex;
+  gap: 10px;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.name {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.image {
+  width: 500px;
+  max-width: 100%;
+}
+.heart-icon {
+  height: 25px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.icon {
+  height: 23px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+input {
+  width: 88%;
+  padding-top: 5px;
+  border: none;
+  outline: none;
+}
+.postbutton {
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: none;
+  color: #342020;
+  background-color: white;
+}
+/* .seperator {
+  margin-top: 0;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 0.5px;
+  margin-inline-end: 0;
+  margin-inline-start: 250px;
+  height: 100vh;
+} */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  position: fixed;
+  background-color: brown;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+h1 {
+  margin-left: 20px;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+}
+.icons {
+  width: 20px;
+}
+.hijab {
+  border-radius: 10px;
+}
+.seperator {
+  border-right-style: solid;
+  border-right-color: gainsboro;
+  height: 100vh;
+}
